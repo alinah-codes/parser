@@ -22,7 +22,6 @@ public class FedresursClient {
                 .defaultHeader(HttpHeaders.REFERER,
                         "https://bankrot.fedresurs.ru/arbitrmanagers")
 
-                // 🔥 КРИТИЧНО
                 .defaultHeader(HttpHeaders.COOKIE,
                         "_ym_uid=1768406400718164408; _ym_d=1768406400; " +
                                 "qrator_ssid2=v2.0.1768488717.570.2efbc4ae0cdOXakG|pkcXKuXy5KeI3ccO|sw1FGkHaG1ARnLROoCjsLXyGQUhf2BPJcySnP2DrETISkx5FnJDQxbSQVHfXxsdM99POf7yNZkmBVYOnfyY3oA==-95QS+VipmxqybGjmLmkCSD9zURc=; " +

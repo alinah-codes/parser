@@ -38,6 +38,9 @@ public class ParserApplication implements CommandLineRunner {
 		System.out.println("TOTAL = " + total);
 		System.out.println("ALL SIZE = " + all.size());
 		System.out.println("FIRST NAME = " + all.get(0).getName());
+
+		ExcelWriter.writeToExcel(all, "result.xlsx");
+
 	}
 
 }
